@@ -3,14 +3,13 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 const config = {
-  apiKey: "AIzaSyCuCIjUTExp2r4zPRaBkzxli5XDV8gVnwM",
-  authDomain: "crm-cms-pjatk.firebaseapp.com",
-  databaseURL: "https://crm-cms-pjatk.firebaseio.com",
-  projectId: "crm-cms-pjatk",
-  storageBucket: "crm-cms-pjatk.appspot.com",
-  messagingSenderId: "1075490656124",
-  appId: "1:1075490656124:web:0a8ae178e1675052bddef9",
-  measurementId: "G-GK6SBY3BQJ"
+  apiKey: "AIzaSyDfUSCMtEgltDJW3-EU7XOWrCffgV6-XLs",
+  authDomain: "x5engine-1fe8e.firebaseapp.com",
+  projectId: "x5engine-1fe8e",
+  storageBucket: "x5engine-1fe8e.appspot.com",
+  messagingSenderId: "1020668400488",
+  appId: "1:1020668400488:web:955d3f7166703a93037cdd",
+  measurementId: "G-39LXZ6NWHW"
 };
 
 export const createDocument = async (document, type) => {
